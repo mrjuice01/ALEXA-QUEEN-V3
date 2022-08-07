@@ -18,7 +18,7 @@
                 "OWNER": {
                       "description": "Please enter the owner number here",
                       "required": false,
-                      "value": "+27686881509"
+                      "value": "27686881509"
 		},
 		"LOG_MSG": {
 			"description": "Show whatsapp msgs in log",
@@ -28,10 +28,10 @@
 		"SUDO": {
 			"description": "Put the bot number here",
 			"required": false,
-			"value": "+27686881509"
+			"value": "27686881509"
            
                 },
-                 "BOTNAME": {
+                "BOTNAME": {
                          "description": "Put a Whatsapp bot name here(2022)",
                          "required": false,
                          "value": "ALEXA QUEEN"
