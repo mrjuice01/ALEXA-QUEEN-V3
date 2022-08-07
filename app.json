@@ -1,6 +1,8 @@
 {
 	"name": "ALEXA QUEEN",
-	"description": " Alexa Queen Fully customized by Cyberxkid.",
+	"description": "Alexa Queen Fully customized by Cyberxkid.",
+        "repository": "https://github.com/Diegoson/ALEXA-QUEEN-V3",
+        "logo": " https://i.ibb.co/TPLgRdk/Alexa.jpg/Alexaqueen.png?v=4",
 	"keywords": [
 		"whatsapp",
 		"bot"
@@ -13,6 +15,11 @@
 			"description": "show bot number last seen as online",
 			"required": false,
 			"value": "false"
+                },
+                "OWNER": {
+                      "description": "Please enter the owner number here",
+                      "required": false,
+                      "value": "+27686881509"
 		},
 		"LOG_MSG": {
 			"description": "Show whatsapp msgs in log",
@@ -20,9 +27,15 @@
 			"value": "false"
 		},
 		"SUDO": {
-			"description": "admin",
-			"required": true,
-			"value": "null"
+			"description": "Put the bot number here",
+			"required": false,
+			"value": "+27686881509"
+           
+                },
+                 "BOTNAME": {
+                         "description": "Put a Whatsapp bot name here(2022)",
+                         "required": false,
+                         "value": "ALEXA QUEEN"
 		},
 		"PREFIX": {
 			"description": "prefix, check for more",
